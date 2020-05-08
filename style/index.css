@@ -255,6 +255,14 @@ footer nav a {
 	  width: 28%;
 		padding: 10% 0;
 	}
+
+	.bottom-content {
+	  flex-wrap: wrap;
+	}
+
+	.bottom-content .text-container {
+	  width: 50%;
+	}
 }
 
 /* == 500px max width ==*/
