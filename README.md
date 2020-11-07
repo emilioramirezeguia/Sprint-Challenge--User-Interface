@@ -15,10 +15,10 @@ You are not allowed to collaborate during the Sprint Challenge. However, you are
 
 In this challenge, you build a missing header (navigation and image) on the home page, update some CSS styling on the home page, and make your page responsive for mobile. You will be working with a pre-existing web page, allowing you to get a taste of what it is like to inherit code from someone else, as will regularly happen on the job.
 
-In meeting the minimum viable product (MVP) specifications listed below, your web page should look like the solution screen shots of the home page and mobile version. 
+In meeting the minimum viable product (MVP) specifications listed below, your web page should look like the solution screen shots of the home page and mobile version.
 
  [Click here for home page example](https://tk-assets.lambdaschool.com/39a49225-8ac9-43da-aa90-514fd60ae99a_sprint-challenge-ui-home-example.png)
- 
+
  [Click here for tablet example](design/tablet.png)
 
 
@@ -36,13 +36,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML is HTML that you can understand by reading it. The tags give meaning to what you're trying to accomplish in your structure. It's not only easier for other developers to read when working together but also for computers when used by screen readers or SEO. It's good practice to use semantic HTML.
+
 2. What are the 4 areas of the box model?
+
+The 4 areas are content, padding, border, and margin.
 
 3. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+The default direction with flexbox is row. So align-items would work with the cross axis, in this case it would align items vertically.
+
 4. Explain why git is valuable to a team of developers.
 
+Git is a powerful way to keep track of changes made to your code, so it's easier to have different people work on different parts of the code without messing up the code that's already working. It's also a great way to avoid fatal errors like deleting your code completely or adding code that might break the rest of the code that's working. You can always refer back to your code in a specific point in time that's working fine.
+
 5. Define mobile-first design in your own words.
+
+Mobile first is design that starts with mobile view and works its way up. You use this by setting up media querys with min-width.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
